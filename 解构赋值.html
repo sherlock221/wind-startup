@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="lib/traceur.js"></script>
+    <title></title>
+</head>
+<body>
+
+变量赋值的新方式, 按照一定的模式 从数组和对象中提取值，对变量进行赋值
+
+
+<script type="module">
+
+
+    var [a, b, c ] = [ 4 , 5 , 6 ];
+    var [d, ,e] = [7,8,9];
+
+
+    console.log(d);
+    console.log(e);
+
+</script>
+
+</body>
+</html>
